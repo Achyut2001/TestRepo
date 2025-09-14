@@ -36,4 +36,7 @@ public class AdminController {
     public ResponseEntity<List<Property>> getRejectedProperties() {
         return ResponseEntity.ok(propertyServiceAdmin.getRejectedProperties());
     }
+
+    //need to implment jav 17 featues 
+    //need to add logger properly
 }
